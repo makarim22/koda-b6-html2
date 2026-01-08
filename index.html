@@ -6,109 +6,97 @@
     <title>chess board</title>
     <meta name="description" content="A simple, plain HTML document.">
     <style>
-        table {
+        .chessboard {
             width: 600px;
             height: 600px;
-            margin: 0 auto
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 1fr);
         }
-        td {
-            width: 60px;
-            height: 60px;
-        }
-        .black{
+        .black {
             background-color: black;
         }
-        .white{
-            background-color: white;    
+        .white {
+            background-color: white;
         }
     </style>
 </head>
 <body>
- <table border="1">
-    <tbody>
-        <tr>
-           <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-        </tr>
-    <tr>
-         <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-    </tr>
-    <tr>
-           <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-        </tr>
-    </tr>
-    <tr>
-         <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-    </tr>
-        <tr>
-                     <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-        </tr>
-    <tr>
-         <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-    </tr>
-    <tr>
-           <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-            <td></td>
-            <td class="black"></td>
-        </tr>
-    </tr>
-    <tr>
-         <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-        <td class="black"></td>
-        <td></td>
-    </tr>
-    </tbody>
- </table>
+    <div align="center">
+<div class="chessboard">
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        </div>
+</div>
 </body>
 </html>
